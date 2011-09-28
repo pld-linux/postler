@@ -1,13 +1,12 @@
 Summary:	A super sexy, ultra simple desktop mail client built in vala
 #Summary(pl.UTF-8):	-
 Name:		postler
-Version:	0.1.0
+Version:	0.1.1
 Release:	0.1
 License:	GPL v2
 Group:		X11/Applications/Mail
-#Source0:	http://www.xfce.org/archive/src/apps/postler/0.1/
-Source0:	http://www.twotoasts.de/media/%{name}-%{version}.tar.bz2
-# Source0-md5:	0247cdf1ab8e2d919c9299a52646f47a
+Source0:	http://archive.xfce.org/src/apps/postler/0.1/%{name}-%{version}.tar.bz2
+# Source0-md5:	02e502c9f4a4b92e4ace32d9e268f06d
 URL:		https://launchpad.net/postler
 BuildRequires:	gettext-devel
 BuildRequires:	glib2-devel >= 1:2.26
