@@ -8,7 +8,7 @@ Group:		X11/Applications/Mail
 Source0:	http://archive.xfce.org/src/apps/postler/0.1/%{name}-%{version}.tar.bz2
 # Source0-md5:	02e502c9f4a4b92e4ace32d9e268f06d
 URL:		https://launchpad.net/postler
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 1:2.26
 BuildRequires:	gtk+2-devel >= 2:2.18
 BuildRequires:	gtk-webkit-devel >= 1.1.18
